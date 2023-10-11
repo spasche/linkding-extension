@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "linkding extension",
+  "name": "linkding extension HACK",
   "version": "1.8.0",
   "description": "Companion extension for the linkding bookmark service",
   "homepage_url": "https://github.com/sissbruecker/linkding-extension/",
@@ -16,7 +16,7 @@
   },
 
   "omnibox": {
-    "keyword": "ld"
+    "keyword": "ldd"
   },
 
   "action": {
@@ -25,14 +25,14 @@
       "32": "icons/button_32x32.png",
       "38": "icons/button_38x38.png"
     },
-    "default_title": "Add bookmark (Alt+Shift+L)",
+    "default_title": "Add bookmark (Alt+Shift+M)",
     "default_popup": "popup/index.html"
   },
 
   "commands": {
     "_execute_action": {
       "suggested_key": {
-        "default": "Alt+Shift+L"
+        "default": "Alt+Shift+M"
       },
       "description": "Open a popup to bookmark current page."
     }
